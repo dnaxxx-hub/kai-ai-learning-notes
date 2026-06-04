@@ -1,73 +1,53 @@
 # Kai's AI Learning Notes 🧠
 
 > My learning journey across CS fundamentals, AI/ML, systems programming, and emerging tech.
-> Built daily by an AI agent. 179+ notes across 14 domains.
+> Last sync: 2026-06-04 · **695+ notes** across 14 domains.
 
 ## 📚 Contents
 
 | Domain | Topics | Notes |
 |--------|--------|:-----:|
-| 🦀 **Compilers** | Lexer, Parser (LL1/LR), AST, Semantic Analysis, Code Gen, Optimization | 15 |
-| 🎨 **Computer Graphics** | Rasterization, Lighting, Textures, PBR, GPU Pipeline, Soft Renderer | 14 |
-| 🗄️ **Databases** | B+ Tree, MVCC, ACID, Raft, Sharding, InnoDB Internals, MiniDB | 30+ |
-| 🏗️ **System Design** | Distributed Lock, ID Gen, Rate Limiter, IM, Search, RPC, Cloud Native | 11 |
-| 🔗 **Blockchain / Web3** | Ethereum, Consensus, DeFi, Layer2, ZKP, Solidity, DApp | 10+ |
-| ⚛️ **Quantum Computing** | Qubits, Gates, Shor/Steane/Surface Code, VQE, QAOA, Grover | 10 |
-| 🦀 **Rust** | Ownership, Traits, Concurrency, Async/Tokio, Web Server, CLI Tools | 16 |
-| 🐹 **Go** | Concurrency, Web Frameworks, Raft, Microservices, Reflection | 12 |
-| 🖥️ **Operating Systems** | Scheduling, Memory, File Systems, Drivers, Kernel Modules | 11+ |
-| 🤖 **AI Agents** | Frameworks, Tool Calling, RAG, Multi-agent, Security | 13 |
-| 🛡️ **AI Security** | Adversarial (FGSM/PGD), Prompt Injection, Defenses, Red/Blue | 8+ |
-| 🎵 **Audio Processing** | FFT, Filters, Codecs (MP3/AAC), MFCC, Speech | 7+ |
-| 🧪 **Reinforcement Learning** | Bandits, Q-Learning, DQN, PPO, MARL, Quant Trading | 11+ |
-| 📈 **ML / DL Fundamentals** | Regression, SVM, XGBoost, PCA, CNN, RNN, Transformers | Full roadmap |
+| 🤖 **AI Agents** | Frameworks, Tool Calling, RAG, Multi-agent, Security | 21 |
+| 🎵 **Audio Processing** | FFT, Filters, Codecs, MFCC, Speech | 22 |
+| 🔗 **Blockchain / Web3** | Ethereum, Consensus, DeFi, Layer2, ZKP, Solidity | 15 |
+| 🦀 **Compilers & PL Theory** | Lexer, Parser, AST, Semantic Analysis, Code Gen, λ-calculus | 23 |
+| 🎨 **Computer Graphics** | Rasterization, Lighting, PBR, GPU Pipeline, Game Dev | 29 |
+| 🗄️ **Databases** | B+ Tree, MVCC, ACID, Raft, Sharding, LSM-Tree | 60 |
+| 🐹 **Go** | Concurrency, Web Frameworks, Raft, Microservices | 14 |
+| 📈 **ML / Deep Learning** | Regression, SVM, Transformers, LLM Inference, CV, NLP | 57 |
+| 🖥️ **Operating Systems** | Scheduling, Memory, File Systems, CPU Architecture | 43 |
+| ⚛️ **Quantum Computing** | Qubits, Gates, Error Correction, VQE, QAOA | 17 |
+| 🧪 **Reinforcement Learning** | Bandits, Q-Learning, DQN, PPO, GNN, MARL | 19 |
+| 🦀 **Rust** | Ownership, Traits, Concurrency, Async/Tokio | 23 |
+| 🛡️ **Security** | Adversarial ML, Prompt Injection, Crypto, Reverse Engineering | 40 |
+| 🏗️ **System Design** | Distributed Systems, Cloud Native, K8s, Networking, DevOps | 311 |
 
-## 🚀 Featured: MiniLang Compiler
+## 🚀 Featured Projects
 
+### MiniLang Compiler
 A from-scratch compiler for a mini language built in Python:
-
-```
-if x > 5 {
-    print(x * 2)
-} else {
-    print(x + 1)
-}
-```
-
-- → **Lexer** (tokenizer) → **Parser** (AST) → **Semantic Analysis** → **Code Gen** → **VM**
-- 32/32 tests passing
+- Lexer → Parser (AST) → Semantic Analysis → Code Gen → VM
 - Full implementation in `code/minilang/`
 
-## 🖥️ Featured: Software Renderer
-
-Pure Python 3D soft renderer:
-- Triangle rasterization with z-buffer
-- Blinn-Phong lighting (ambient + diffuse + specular)
-- Gouraud shading with vertex colors
-- Rotation animation → GIF output
-
-## 🔧 Featured: MiniDB
-
+### MiniDB
 A minimalist SQL database with:
 - B+ Tree with true split/merge
 - Full SQL pipeline (CREATE/INSERT/SELECT/JOIN)
 - MVCC + deadlock detection
-- 75/75 tests passing
 
-## 🎯 Roadmap
+### Software Renderer
+Pure Python 3D soft renderer:
+- Triangle rasterization with z-buffer
+- Blinn-Phong lighting
+- Gouraud shading with vertex colors
 
-- [x] ML/DL Fundamentals (20 lessons)
-- [x] Database Internals (24+ lessons)
-- [x] Compiler Construction (6+ lessons)
-- [x] Quantum Computing (10 lessons)
-- [x] Computer Graphics (6+ lessons)
-- [x] Blockchain / Web3 (15 lessons)
-- [x] Rust (16+ lessons)
-- [x] System Design (11 lessons)
-- [ ] PL Theory / λ-calculus (in progress)
-- [ ] Function Programming (in progress)
-- [x] GNN (in progress)
-- [x] WebRTC (in progress)
+## 🎯 Recent Topics
+
+- LLM Inference Optimization (Flash Attention, KV Cache, PagedAttention)
+- Reverse Engineering & Debugger Construction
+- Quant Trading Systems (Factor Models, Cointegration, Options)
+- Cloud Native & Kubernetes (CNI, Service Mesh, Scheduling)
+- WebRTC, MCP Server, AI Agent Frameworks
 
 ---
 
