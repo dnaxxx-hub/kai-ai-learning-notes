@@ -10,7 +10,7 @@
 | 🤖 **AI Agents** | Frameworks, Tool Calling, RAG, Multi-agent, Security | 21 |
 | 🎵 **Audio Processing** | FFT, Filters, Codecs, MFCC, Speech | 22 |
 | 🔗 **Blockchain / Web3** | Ethereum, Consensus, DeFi, Layer2, ZKP, Solidity | 15 |
-| 🦀 **Compilers & PL Theory** | Lexer, Parser, AST, Semantic Analysis, Code Gen, λ-calculus | 23 |
+| 🦀 **Compilers & PL Theory** | Lexer, Parser, AST, Semantic Analysis, Code Gen | 23 |
 | 🎨 **Computer Graphics** | Rasterization, Lighting, PBR, GPU Pipeline, Game Dev | 29 |
 | 🗄️ **Databases** | B+ Tree, MVCC, ACID, Raft, Sharding, LSM-Tree | 60 |
 | 🐹 **Go** | Concurrency, Web Frameworks, Raft, Microservices | 14 |
@@ -20,7 +20,7 @@
 | 🧪 **Reinforcement Learning** | Bandits, Q-Learning, DQN, PPO, GNN, MARL | 19 |
 | 🦀 **Rust** | Ownership, Traits, Concurrency, Async/Tokio | 23 |
 | 🛡️ **Security** | Adversarial ML, Prompt Injection, Crypto, Reverse Engineering | 40 |
-| 🏗️ **System Design** | Distributed Systems, Cloud Native, K8s, Networking, DevOps | 311 |
+| 🏗️ **System Design** | Distributed Systems, Cloud Native, K8s, Networking, DevOps, Algo, Math | 311 |
 
 ## 🚀 Featured Projects
 
